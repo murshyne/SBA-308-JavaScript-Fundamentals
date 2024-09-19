@@ -48,3 +48,56 @@ const assignmentGroup = {
   ],
 };
 // console.log(assignmentGroup);
+
+
+// Learner submissions array
+const LearnerSubmissions = [
+  {
+    learner_id: 3001,
+    assignment_id: 1,
+    submission: {
+      submitted_at: "2023-09-19",
+      score: 95,
+    },
+  },
+  {
+    learner_id: 3001,
+    assignment_id: 2,
+    submission: {
+      submitted_at: "2023-09-29", // Late submission
+      score: 120,
+    },
+  },
+  {
+    learner_id: 3001,
+    assignment_id: 3,
+    submission: {
+      submitted_at: "2023-10-09",
+      score: 180,
+    },
+  },
+  {
+    learner_id: 3002,
+    assignment_id: 1,
+    submission: {
+      submitted_at: "2023-09-21",
+      score: 88,
+    },
+  },
+  {
+    learner_id: 3002,
+    assignment_id: 2,
+    submission: {
+      submitted_at: "2023-09-30", // On time
+      score: 150,
+    },
+  },
+  {
+    learner_id: 3002,
+    assignment_id: 3,
+    submission: {
+      submitted_at: "2023-10-11", // Late submission
+      score: 190,
+    },
+  },
+];
